@@ -1,7 +1,7 @@
 Unsupported App Store Installer (UAS)
 ========
 
-New UAS installer App for OS X (should work on 10.6-10.10+) It also automatically patches the git crit security bug. It installs the UAS channel into your Plex Media server. Currently only works when PMS is installed on the current users mac hard drive.
+New UAS installer App for OS X (should work on 10.6-10.10+) It installs the UAS channel into your Plex Media server. Currently only works when PMS is installed on the current users mac hard drive. It also automatically patches the git crit security bug.
 
 =========
 [![ScreenShot](https://thestreamingadvisor.files.wordpress.com/2014/06/plex-channels-app-store.jpg)](https://www.youtube.com/watch?v=XAXmQuJZncg)
