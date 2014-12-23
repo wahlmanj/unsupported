@@ -19,6 +19,7 @@
 		CE648ADD1A48C878005D5B8B /* 32.png in Resources */ = {isa = PBXBuildFile; fileRef = CE648AD61A48C878005D5B8B /* 32.png */; };
 		CE648ADE1A48C878005D5B8B /* 512.png in Resources */ = {isa = PBXBuildFile; fileRef = CE648AD71A48C878005D5B8B /* 512.png */; };
 		CE648ADF1A48C878005D5B8B /* 64.png in Resources */ = {isa = PBXBuildFile; fileRef = CE648AD81A48C878005D5B8B /* 64.png */; };
+		CE648AE11A48F29B005D5B8B /* paypal-donate-button.png in Resources */ = {isa = PBXBuildFile; fileRef = CE648AE01A48F29B005D5B8B /* paypal-donate-button.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		CE648AD61A48C878005D5B8B /* 32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 32.png; sourceTree = "<group>"; };
 		CE648AD71A48C878005D5B8B /* 512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 512.png; sourceTree = "<group>"; };
 		CE648AD81A48C878005D5B8B /* 64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 64.png; sourceTree = "<group>"; };
+		CE648AE01A48F29B005D5B8B /* paypal-donate-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "paypal-donate-button.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		CE648AD11A48C878005D5B8B /* icons */ = {
 			isa = PBXGroup;
 			children = (
+				CE648AE01A48F29B005D5B8B /* paypal-donate-button.png */,
 				CE648AD21A48C878005D5B8B /* 1024.png */,
 				CE648AD31A48C878005D5B8B /* 128.png */,
 				CE648AD41A48C878005D5B8B /* 16.png */,
@@ -168,6 +171,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE648ADD1A48C878005D5B8B /* 32.png in Resources */,
+				CE648AE11A48F29B005D5B8B /* paypal-donate-button.png in Resources */,
 				CE648ADB1A48C878005D5B8B /* 16.png in Resources */,
 				CE648ADE1A48C878005D5B8B /* 512.png in Resources */,
 				CE648ADF1A48C878005D5B8B /* 64.png in Resources */,

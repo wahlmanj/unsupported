@@ -668,17 +668,17 @@
                 </menuItem>
             </items>
         </menu>
-        <window title="UAS-installer" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" animationBehavior="default" id="QvC-M9-y7g">
-            <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
+        <window allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" animationBehavior="default" id="QvC-M9-y7g">
+            <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES" texturedBackground="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
-            <rect key="contentRect" x="335" y="390" width="348" height="153"/>
+            <rect key="contentRect" x="335" y="390" width="348" height="200"/>
             <rect key="screenRect" x="0.0" y="0.0" width="1440" height="877"/>
             <view key="contentView" id="EiT-Mj-1SZ">
-                <rect key="frame" x="0.0" y="5" width="348" height="153"/>
+                <rect key="frame" x="0.0" y="-1" width="348" height="200"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <button id="MAi-Nw-tbb">
-                        <rect key="frame" x="150" y="52" width="49" height="49"/>
+                        <rect key="frame" x="150" y="83" width="49" height="49"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <buttonCell key="cell" type="squareTextured" bezelStyle="texturedSquare" image="512" imagePosition="overlaps" alignment="center" state="on" imageScaling="proportionallyDown" inset="2" id="1LC-S7-viX">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
@@ -689,16 +689,16 @@
                         </connections>
                     </button>
                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" id="xdT-Q8-duN">
-                        <rect key="frame" x="18" y="108" width="312" height="25"/>
+                        <rect key="frame" x="72" y="169" width="204" height="20"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Unsupported App Store Installer" id="K7A-Xv-vY7">
-                            <font key="font" size="20" name="HelveticaNeue-Bold"/>
+                            <font key="font" size="13" name="HelveticaNeue-Bold"/>
                             <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
                     </textField>
                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" id="oUe-91-n7V">
-                        <rect key="frame" x="122" y="20" width="105" height="14"/>
+                        <rect key="frame" x="122" y="51" width="105" height="14"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Click Icon to install" id="buk-t9-Rfg">
                             <font key="font" metaFont="smallSystem"/>
@@ -707,15 +707,37 @@
                         </textFieldCell>
                     </textField>
                     <progressIndicator horizontalHuggingPriority="750" verticalHuggingPriority="750" maxValue="100" displayedWhenStopped="NO" bezeled="NO" indeterminate="YES" controlSize="small" style="bar" id="eDd-zf-gSD">
-                        <rect key="frame" x="150" y="36" width="49" height="12"/>
+                        <rect key="frame" x="150" y="67" width="49" height="12"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     </progressIndicator>
+                    <box autoresizesSubviews="NO" borderType="line" id="UG5-4X-iMj">
+                        <rect key="frame" x="102" y="42" width="145" height="126"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <view key="contentView">
+                            <rect key="frame" x="1" y="1" width="143" height="110"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        </view>
+                        <color key="borderColor" white="0.0" alpha="0.41999999999999998" colorSpace="calibratedWhite"/>
+                        <color key="fillColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </box>
+                    <button id="Hyz-sH-swp">
+                        <rect key="frame" x="105" y="6" width="139" height="25"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="paypal-donate-button" imagePosition="overlaps" alignment="center" imageScaling="proportionallyDown" inset="2" id="ufN-OS-Nxg">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="buttonhandlerdonate:" target="Voe-Tx-rLC" id="L78-Py-Z02"/>
+                        </connections>
+                    </button>
                 </subviews>
             </view>
-            <point key="canvasLocation" x="305" y="257.5"/>
+            <point key="canvasLocation" x="291" y="330"/>
         </window>
     </objects>
     <resources>
         <image name="512" width="512" height="512"/>
+        <image name="paypal-donate-button" width="500" height="117"/>
     </resources>
 </document>
